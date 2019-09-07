@@ -1,0 +1,106 @@
+
+.Form2{
+    background-color: limegreen;
+    width: 250px;
+    height: 200px;
+}
+
+.Form2-B{
+    width:150px;
+    height: 30px;
+    border:2px solid #fff;
+    font-size:1em;
+    font-weight: bold;
+    margin-top: 15px;
+    border-radius: 8px;
+    margin-right:220px;
+
+
+}
+.Form2-B:hover{
+    background-color: black;
+    color:#fff;
+    border:2px solid black;
+    border-radius: 8px;
+
+
+}
+
+/*
+
+.Form2-C{*/
+/*height: 300px;*/
+/*border:20px solid #519e8a;*/
+
+/*}*/
+
+.Form2-H{
+    height:100vh;
+    width:100%;
+}
+.Form2-E{
+    height:100vh;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    /*background-color:#258ea6;*/
+    /*background: url(1.jpg)*/
+
+}
+.Form2-F{
+    position:absolute;
+    background-color:rgba(255,255,255,0.4);
+    width: 350px;
+    box-shadow: 10px 10px 5px;
+
+}
+
+.Form2-C{
+    width:250px;
+    display:flex;
+    flex-direction: column;
+    padding:10px 10px ;
+    align-items: center;
+
+
+}
+
+.Form2-C:hover{
+
+    color:#fff;
+}
+
+.Form2-G{
+    width:250px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.Form2-input{
+    padding:5px 5px ;
+    margin-right: 240px;
+
+}
+
+input{
+    padding: 10px;
+    border:1px solid black;
+    width:250px;
+    background-color:transparent;
+
+}
+
+p{
+    font-size: small;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-left: 100px;
+}
+input::placeholder{
+    color: black;
+    font-style: italic;
+    font-weight: bold;
+
+}
